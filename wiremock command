@@ -1,0 +1,4 @@
+wire mock command:
+
+java -jar wiremock-standalone-2.23.2.jar --port=5000
+
