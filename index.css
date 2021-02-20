@@ -1,3 +1,90 @@
 body {
-  background: blue;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin-bottom: 0%;
+  color: #66bfbf;
+}
+h2 {
+  margin-top: 0%;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #11999e;
+}
+.top-cloud {
+  padding-top: 50px;
+  position: relative;
+  left: 200px;
+}
+.bottom-cloud {
+  position: absolute;
+}
+.top-container {
+  background-color: #e4f9f5;
+}
+.middle-container {
+}
+.bottom-container {
+  background-color: #66bfbf;
+  margin-bottom: 0;
+  padding: 30px;
+}
+.bottom-container p {
+  color: #eaf6f6;
+  font-size: small;
+  margin-top: 2rem;
+}
+.bottom-container a {
+  color: #11999e;
+  margin: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.cooking-gif {
+  width: 25%;
+  height: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.coding-gif {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.profile {
+  margin-top: 2rem;
+  border: 10px solid #c5682f;
+  border-radius: 100%;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.middle-p {
+  color: #40514e;
+}
+hr {
+  border-top: dotted 7px;
+  border-bottom: 0px;
+  width: 5rem;
+  border-left: 0px;
+  border-right: 0px;
+  color: #babdbd;
+  margin-top: 30px;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
